@@ -1,7 +1,7 @@
 import p5 from "p5";
 import { Ball } from "./Ball";
 
-import { Drawable, Shape } from "./Interfaces";
+import { Drawable } from "./Interfaces";
 import Net from "./Net";
 import { Paddle } from "./Paddle";
 import ScoreKeeper from "./ScoreKeeper";

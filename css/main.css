@@ -10,6 +10,23 @@ body {
 .scorebox {
     color: white;
     font-family: 'Bit 5x3';
-    font-size: 5em;
-    font-stretch: 200%;
+    font-size: 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+#unsupported {
+    color: white;
+    font-family: 'Bit 5x3';
+    font-size: 2rem;
 }
